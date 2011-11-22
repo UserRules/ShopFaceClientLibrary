@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libraries/resteasy/jackson-core-asl-1.6.3.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/jackson-jaxrs-1.6.3.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/jackson-mapper-asl-1.6.3.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/jackson-xc-1.6.3.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/jaxb-api-2.2.3.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/jaxb-impl-2.2.4.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/jaxrs-api-2.2.2.GA.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/resteasy-jackson-provider-2.2.2.GA.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/resteasy-jaxb-provider-2.2.2.GA.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/resteasy-jaxrs-2.2.2.GA.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/resteasy-jettison-provider-2.2.2.GA.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/resteasy-jsapi-2.2.2.GA.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/resteasy-links-2.2.2.GA.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/resteasy-multipart-provider-2.2.2.GA.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/resteasy-oauth-2.2.2.GA.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/resteasy-spring-2.2.2.GA.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/scannotation-1.0.3.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/slf4j-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="libraries/resteasy/slf4j-simple-1.5.6.jar"/>
+	<classpathentry kind="lib" path="libraries/commons/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="libraries/commons/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libraries/commons/httpclient-4.1.2.jar"/>
+	<classpathentry kind="lib" path="libraries/commons/httpclient-cache-4.1.2.jar"/>
+	<classpathentry kind="lib" path="libraries/commons/httpcore-4.1.2.jar"/>
+	<classpathentry kind="lib" path="libraries/commons/httpmime-4.1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
