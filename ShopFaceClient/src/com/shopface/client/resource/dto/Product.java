@@ -25,11 +25,13 @@ public class Product {
     private String              description;
     private String              thumbnailUrl;
     private List<String>        images;
+    private String              landingPageUrl;
     private boolean             isPublished;
     private boolean             isFeatured;
     private Map<String, String> details;
     private Map<String, String> attributes;
     private List<String>        tags;
+    private Date                lastModifiedDate;
 
     public String getId() {
         return id;
@@ -229,6 +231,14 @@ public class Product {
         this.attributes = attributes;
     }
 
+    public String getLandingPageUrl() {
+        return landingPageUrl;
+    }
+
+    public void setLandingPageUrl(String landingPageUrl) {
+        this.landingPageUrl = landingPageUrl;
+    }
+
     public String getCurrencyCode() {
         return currencyCode;
     }
@@ -251,6 +261,14 @@ public class Product {
 
     public void setTags(List<String> tags) {
         this.tags = tags;
+    }
+
+    public Date getLastModifiedDate() {
+        return lastModifiedDate;
+    }
+
+    public void setLastModifiedDate(Date lastModifiedDate) {
+        this.lastModifiedDate = lastModifiedDate;
     }
 
 }

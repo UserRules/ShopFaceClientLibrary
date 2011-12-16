@@ -20,10 +20,11 @@ import com.shopface.client.resource.dto.ProductCategory;
 public interface ProductResource {
 
     @POST
-    @Path("/product/new")
+    @Path("/product/createorupdate")
     @Produces("application/json; charset=utf-8")
     @Consumes("application/json; charset=utf-8")
-    public Product createProduct(@PathParam("companyShortName") String companyShortName, Product product);
+    public Product createOrUpdateProduct(@PathParam("companyShortName") String companyShortName, Product product, @QueryParam("attributeName") String uniqueAttributeName,
+            @QueryParam("attributeValue") String uniqueAttributeValue);
 
     @GET
     @Path("/product")

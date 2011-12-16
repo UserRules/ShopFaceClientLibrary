@@ -66,8 +66,8 @@ public class ShopFaceClient {
         this.companyShortName = companyShortName;
     }
 
-    public Product createProduct(Product product) {
-        return this.productResource.createProduct(companyShortName, product);
+    public Product createOrUpdateProduct(Product product, String uniqueAttributeName, String uniqueAttributeValue) {
+        return this.productResource.createOrUpdateProduct(companyShortName, product, uniqueAttributeName, uniqueAttributeValue);
     }
 
     public ProductCategory createCategory(ProductCategory productCategory) {
